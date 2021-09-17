@@ -42,20 +42,20 @@
   
   /* Image box */
   
-  .r1 {
-    background-image: url("../images/r1.jpg");
+  .img1 {
+    background-image: url("../images/img1.jpg");
   }
   
-  .r2 {
-    background-image: url("../images/r2.jpg");
+  .img2 {
+    background-image: url("../images/img2.jpg");
   }
   
-  .r3 {
-    background-image: url("../images/r3.jpg");
+  .img3 {
+    background-image: url("../images/img3.jpg");
   }
   
-  .r4 {
-    background-image: url("../images/r4.jpg");
+  .img4 {
+    background-image: url("../images/img4.jpg");
   }
   
   
@@ -211,4 +211,54 @@ footer .fa-hands-helping {
   font-size: 9px;
 }
 
-  
+
+
+
+/* Heart */
+
+.heart-box {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.heart-box .far {
+  position: absolute;
+  font-size: inherit;
+}
+
+.heart-box .fas {
+  position: absolute;
+  font-size: 0px;
+  background: linear-gradient(40deg, #FF79DA, #9356DC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+
+/* Heart (Animation) */
+
+.heart-box .far {
+  transition: color 0.3s linear 0s;
+}
+
+.heart-box:hover .far {
+  color: transparent;
+}
+
+.heart-box .fas {
+  transition: font-size 0.3s linear 0s;
+}
+
+.heart-box:hover .fas {
+  font-size: inherit;
+}
+
+
+
+
