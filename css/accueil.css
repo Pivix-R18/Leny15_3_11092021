@@ -261,10 +261,10 @@
   
   /* "style.css" => "Image box" */
   
-  .restaurant > .r1,
-  .restaurant > .r2,
-  .restaurant > .r3,
-  .restaurant > .r4 {
+  .restaurant > .img1,
+  .restaurant > .img2,
+  .restaurant > .img3,
+  .restaurant > .img4 {
     height: 75%;
     width: 100%;
     position: relative;
@@ -272,13 +272,13 @@
     background-repeat: no-repeat;
   }
   
-  .restaurant > .r1,
-  .restaurant > .r3,
-  .restaurant > .r4 {
+  .restaurant > .img1,
+  .restaurant > .img3,
+  .restaurant > .img4 {
     background-position: bottom;
   }
   
-  .restaurant > .r2 {
+  .restaurant > .img2 {
     background-position: 50% 60%;
   }
   
