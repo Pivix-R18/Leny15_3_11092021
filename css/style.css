@@ -150,4 +150,65 @@ header img {
 
 
 
+
+
+/* Footer */
+
+footer {
+  padding: 30px 0;
+  background-color: #353535;
+}
+
+footer p {
+  margin-left: 7%;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+footer p,
+footer a,
+footer .fas,
+footer span {
+  font-style: normal;
+  color: #FFF;
+}
+
+
+
+/* Footer - Address */
+
+footer address {
+  height: 100px;
+  margin-left: 7%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+footer a {
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+footer span {
+  margin-left: 22px;
+  font-weight: bold;
+}
+
+footer .fas {
+  position: absolute;
+  left: 0;
+}
+
+footer .fa-utensils {
+  font-size: 12px;
+}
+
+footer .fa-hands-helping {
+  font-size: 9px;
+}
+
   
