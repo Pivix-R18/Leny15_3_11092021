@@ -1,0 +1,347 @@
+
+
+/* Main - Place */
+
+#place {
+    height: 40px;
+    justify-content: center;
+    background-color: #EAEAEA;
+  }
+  
+  #place > div {
+    /*border: 1px solid black;
+    box-sizing: border-box;*/
+    height: inherit;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #place div div {
+    position: absolute;
+    left: -25px;
+  }
+  
+  #place .fas {
+    font-size: 14px;
+  }
+  
+  #place p {
+    font-size: 14px;
+  }
+  
+  
+  
+  
+  
+  
+  /* Main - Explore + Operation */
+  
+  #exp-ope {
+    flex-direction: column;
+  }
+  
+  
+  
+  
+  
+  
+  /* Main - Explore */
+  
+  #explore {
+    padding: 40px 0;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F6F6;
+  }
+  
+  #explore h1,
+  #explore p {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  #explore h1 {
+    font-size: 23px;
+  }
+  
+  #explore p {
+    font-size: 16px;
+  }
+  
+  
+  
+  /* Main - Operation */
+  
+  #operation {
+    padding: 40px 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #operation h1 {
+    height: 40px;
+    width: 290px;
+    margin-bottom: 40px;
+    align-items: center;
+    font-size: 23px;
+  }
+  
+  
+  
+  /* Main - Operation : Step #1-3 */
+  
+  #operation > div {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #operation > div > div {
+    height: 70px;
+    width: 80%;
+    min-width: 280px;
+    max-width: 330px;
+    border-radius: 20px;
+    margin-left: 12px;
+    position: relative;
+    align-items: center;
+    background-color: #F6F6F6;
+    box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.2);
+  }
+  
+  #operation > div > div:nth-child(even) {
+    margin: 20px 0;
+    margin-left: 12px;
+  }
+  
+  #operation p:first-child {
+    height: 24px;
+    width: 24px;
+    border-radius: 100%;
+    position: absolute;
+    left: -12px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #FFF;
+    background-color: #9356DC;
+  }
+  
+  #operation .box-fas {
+    position: absolute;
+    left: 35px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #operation .box-fas .fas {
+    font-size: 18px;
+    color: #7E7E7E;
+  }
+  
+  #operation p:last-child {
+    position: absolute;
+    left: 70px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  
+  
+  /* Main - Operation : Step #1-3 (Animation) */
+  
+  #operation > div > div:hover {
+    background-color: #F5EDFF;
+  }
+  
+  #operation > div > div:hover .fas {
+    color: #9356DC;
+  }
+  
+  
+  
+  
+  
+  
+  /* Main - Restaurant */
+  
+  #restaurant {
+    padding: 40px 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F6F6;
+  }
+  
+  #restaurant h1 {
+    height: 40px;
+    width: 290px;
+    margin-bottom: 40px;
+    align-items: center;
+    font-size: 23px;
+  }
+  
+  
+  
+  /* Main - Restaurant : Link #1-4 */
+  
+  #restaurant nav {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #restaurant nav > div {
+    height: 50%;
+    flex-direction: column;
+  }
+  
+  #restaurant nav > div:nth-child(odd) {
+    margin-bottom: 20px;
+  }
+  
+  .restaurant {
+    height: 240px;
+    width: 290px;
+    border-radius: 15px;
+    margin: 0 auto;
+    position: relative;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #FFF;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+  }
+  
+  .restaurant:nth-child(odd) {
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  /* Main - Restaurant : Link #1-4 (Animation) */
+  
+  .restaurant {
+    transition: box-shadow 0.2s linear 0s;
+  }
+  
+  .restaurant:hover {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  }
+  
+  
+  
+  /* Main - Restaurant : Transparent box */
+  
+  .restaurant > div:nth-child(1) {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  
+  
+  /* Main - Restaurant : Transparent box (Animation) */
+  
+  .restaurant > div:nth-child(1) {
+    transition: opacity 0.2s linear 0s;
+  }
+  
+  .restaurant:hover > div:nth-child(1) {
+    opacity: 1;
+  }
+  
+  
+  
+  /* Main - Restaurant : Image box */
+  
+  /* "style.css" => "Image box" */
+  
+  .restaurant > .r1,
+  .restaurant > .r2,
+  .restaurant > .r3,
+  .restaurant > .r4 {
+    height: 75%;
+    width: 100%;
+    position: relative;
+    background-size: 110%;
+    background-repeat: no-repeat;
+  }
+  
+  .restaurant > .r1,
+  .restaurant > .r3,
+  .restaurant > .r4 {
+    background-position: bottom;
+  }
+  
+  .restaurant > .r2 {
+    background-position: 50% 60%;
+  }
+  
+  .restaurant > div:nth-child(2) p {
+    padding: 5px 8px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #189676;
+    background-color: #99E2D0;
+  }
+  
+  
+  
+  /* Main - Restaurant : White box */
+  
+  .restaurant > div:nth-child(3) {
+    height: 25%;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 9.5px;
+    padding-left: 12px;
+    position: relative;
+    background-color: #FFF;
+  }
+  
+  .restaurant > div:nth-child(3) p {
+    font-size: 16px;
+  }
+  
+  .restaurant > div:nth-child(3) p:nth-child(1) {
+    font-weight: bold;
+  }
+  
+  
+  
+  /* Main - Restaurant : Heart */
+  
+  /* "style.css" => "Heart" */
+  
+  .restaurant .heart-box {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 2;
+  }
+  
+  
+  
+  /* Main - Restaurant : Heart (Animation) */
+  
+  /* "style.css" => "Heart (Animation)" */
+  
+  
+  
+  
+  
+  
+  /* Footer */
+  
+  /* "style.css" => "Footer" */
+  
