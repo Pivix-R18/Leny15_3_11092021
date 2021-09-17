@@ -59,10 +59,7 @@
   }
   
   
-  /*  */
-  .fond {
-    background-color: rgb(73, 14, 14);
-  }
+
   
   
   /* Loading */
@@ -76,10 +73,10 @@
     right: 0;
     z-index: 888;
     justify-content: center;
-  align-items: center;
-  visibility: hidden;
-  animation: loading-disparition 1s linear 0s 1;
-  -webkit-animation: loading-disparition 1s linear 0s 1;
+    align-items: center;
+    visibility: hidden;
+    animation: loading-disparition 1s linear 0s 1;
+    -webkit-animation: loading-disparition 1s linear 0s 1;
   }
 
   #loading div i {
@@ -133,6 +130,23 @@
   }
 
 
+
+
+
+
+/* Header */
+
+header {
+  height: 60px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+}
+
+header img {
+  height: 30px;
+}
 
 
 
