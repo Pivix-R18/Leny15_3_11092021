@@ -1,106 +1,34 @@
-/*
-SOMMAIRE ("copier/coller" et "ctrl+f" pour naviguer) :
-
-
-* [640px ; 1049px]
-
-* [640px ; 1049px] : Main - Explore + Operation
-
-* [640px ; 1049px] : Main - Explore
-
-* [640px ; 1049px] : Main - Operation
-
-* [640px ; 1049px] : Main - Restaurant
-
-* [640px ; 1049px] : Main - Restaurant : Link #1-4
-
-
-* [640px ; 1249px]
-
-* [640px ; 1249px] : Main - Restaurant : Link #1-4
-
-
-* [640px ; +px[
-
-* [640px ; +px[ : Main - Restaurant
-
-
-* [950px ; 1249px]
-
-* [950px ; 1249px] : Main - Restaurant : Link #1-4
-
-* [950px ; 1249px] : Main - Restaurant : Image box
-
-* [950px ; 1249px] : Main - Restaurant : White box
-
-* [950px ; 1249px] : Main - Restaurant : Heart
-
-
-* [1050px ; +px[
-
-* [1050px ; +px[ : Main - Explore
-
-* [1050px ; +px[ : Main - Operation
-
-* [1050px ; +px[ : Main - Operation : Step #1-3
-
-
-* [1250px ; +px[
-
-* [1250px ; +px[ : Main - Restaurant : Link #1-4
-*/
-
-
-
-
-
-
-/* [640px ; 1049px] */
-
 @media screen and (min-width: 640px) and (max-width: 1049px) {
 
-
-
     /* [640px ; 1049px] : Main - Explore + Operation */
-  
     #exp-ope {
       flex-direction: row;
     }
   
-  
-  
-    /* [640px ; 1049px] : Main - Explore */
-  
+    /* Main - Explore */
     #explore {
       height: 330px;
       width: 50%;
     }
-  
+
     #explore h1,
     #explore p {
       text-align: center;
       margin-bottom: 60px;
     }
   
-  
-  
-    /* [640px ; 1049px] : Main - Operation */
-  
+    /* Main - Operation */
     #operation {
       height: 330px;
       width: 50%;
     }
   
-  
-  
-    /* [640px ; 1049px] : Main - Restaurant */
-  
+    /* Main - Restaurant */
     #restaurant {
       background-color: #EAEAEA;
     }
   
-    /* [640px ; 1049px] : Main - Restaurant : Link #1-4 */
-  
+    /* Main - Restaurant : Link #1-4 */
     #restaurant nav {
       width: 100%;
     }
@@ -120,16 +48,11 @@ SOMMAIRE ("copier/coller" et "ctrl+f" pour naviguer) :
     }
   
   }
-  
   
   /* [640px ; 1249px] */
-  
   @media screen and (min-width: 640px) and (max-width: 1249px) {
   
-  
-  
-    /* [640px ; 1249px] : Main - Restaurant : Link #1-4 */
-  
+    /* Main - Restaurant : Link #1-4 */
     #restaurant nav {
       width: 100%;
     }
@@ -150,52 +73,32 @@ SOMMAIRE ("copier/coller" et "ctrl+f" pour naviguer) :
   
   }
   
-  
-  
-  
-  
-  
   /* [640px ; +px[ */
-  
   @media screen and (min-width: 640px) {
   
-  
-  
-    /* [640px ; +px[ : Main - Restaurant */
-  
+    /* Main - Restaurant */
     #restaurant h1 {
       width: auto;
     }
   
   }
-  
-  
-  
-  
-  
-  
+
   /* [950px ; 1249px] */
-  
   @media screen and (min-width: 950px) and (max-width: 1249px) {
   
-  
-  
-    /* [950px ; 1249px] : Main - Restaurant : Link #1-4 */
-  
+    /* Main - Restaurant : Link #1-4 */
     .restaurant {
       height: 300px;
       width: 362.5px;
     }
   
-    /* [950px ; 1249px] : Main - Restaurant : Image box */
-  
+    /* Main - Restaurant : Image box */
     .restaurant > div:nth-child(2) p {
       font-size: 17px;
       padding: 6px 10px;
     }
   
-    /* [950px ; 1249px] : Main - Restaurant : White box */
-  
+    /* Main - Restaurant : White box */
     .restaurant > div:nth-child(3) {
       padding: 12px;
       padding-left: 15px;
@@ -204,9 +107,8 @@ SOMMAIRE ("copier/coller" et "ctrl+f" pour naviguer) :
     .restaurant > div:nth-child(3) p {
       font-size: 20px;
     }
-  
-    /* [950px ; 1249px] : Main - Restaurant : Heart */
-  
+
+    /* Main - Restaurant : Heart */
     .restaurant .heart-box {
       height: 28px;
       width: 28px;
@@ -217,19 +119,10 @@ SOMMAIRE ("copier/coller" et "ctrl+f" pour naviguer) :
   
   }
   
-  
-  
-  
-  
-  
   /* [1050px ; +px[ */
-  
   @media screen and (min-width: 1050px) {
-  
-  
-  
-    /* [1050px ; +px[ : Main - Explore */
-  
+
+    /* Main - Explore */
     #explore {
       flex-direction: row;
       justify-content: space-between;
@@ -244,13 +137,11 @@ SOMMAIRE ("copier/coller" et "ctrl+f" pour naviguer) :
   
   
     /* [1050px ; +px[ : Main - Operation */
-  
     #operation h1 {
       width: auto;
     }
   
     /* [1050px ; +px[ : Main - Operation : Step #1-3 */
-  
     #operation > div {
       flex-direction: row;
       justify-content: space-between;
@@ -271,19 +162,10 @@ SOMMAIRE ("copier/coller" et "ctrl+f" pour naviguer) :
   
   }
   
-  
-  
-  
-  
-  
   /* [1250px ; +px[ */
-  
   @media screen and (min-width: 1250px) {
   
-  
-  
     /* [1250px ; +px[ : Main - Restaurant : Link #1-4 */
-  
     #restaurant nav {
       width: 100%;
       flex-direction: row;

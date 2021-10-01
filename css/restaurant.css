@@ -1,5 +1,4 @@
 header a {
-    /*border: 1px solid red;*/
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -14,12 +13,9 @@ header a {
     font-size: 18px;
   }
   
-  
-  
   /* Main - Image Box */
-  
-  main > .img1,
-  main > .img2,
+  main > .img1, 
+  main > .img2, 
   main > .img3,
   main > .img4 {
     height: 230px;
@@ -37,13 +33,7 @@ header a {
     background-position: 50% 60%;
   }
   
-  
-  
-  
-  
-  
   /* Main - Menu */
-  
   #menu {
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
@@ -53,13 +43,9 @@ header a {
     align-items: center;
     background-color: #F6F6F6;
   }
-  
-  
-  
+
   /* Main - Menu : Title (h1) + Heart */
-  
   #menu > div:nth-child(1) {
-    /*border: 1px solid black;*/
     height: 40px;
     min-width: 300px;
     width: 80%;
@@ -73,21 +59,9 @@ header a {
   }
   
   /* "style.css" => "Heart" */
-  
   #menu .heart-box {
     margin-right: 30px;
   }
-  
-  
-  
-  /* Main - Menu : Title (h1) + Heart (Animation) */
-  
-  /* "style.css" => "Heart (Animation)" */
-  
-  
-  
-  /* Main - Menu : Entrées + Plats + Desserts */
-  
   #menu-all {
     width: 100%;
     margin: 40px 0;
@@ -96,7 +70,6 @@ header a {
   }
   
   #menu-double {
-    /*border: 1px solid black;*/
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -108,7 +81,6 @@ header a {
   }
   
   .menu {
-    /*border: 1px solid black;*/
     height: 260px;
     min-width: 300px;
     width: 80%;
@@ -116,7 +88,6 @@ header a {
   }
   
   #la-note-enchantee #menu-double .menu:nth-child(1) {
-    /*border: 1px solid red;*/
     height: 332px;
   }
   
@@ -133,7 +104,6 @@ header a {
   }
   
   .meal {
-    /*border: 1px solid black;*/
     height: 60px;
     min-width: 300px;
     width: 100%;
@@ -144,10 +114,7 @@ header a {
     box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.3);
   }
   
-  
-  
   /* Main - Menu : Entrées + Plats + Desserts (Animation) */
-  
   .meal:nth-child(3) {
     animation: apparition 1s linear 1s 1,
                delai 1s linear 0s 1;
@@ -207,10 +174,7 @@ header a {
   
   }
   
-  
-  
   /* Main - Menu : White box */
-  
   .meal > div:first-child {
     height: inherit;
     min-width: 0px;
@@ -221,7 +185,6 @@ header a {
   }
   
   .left-box {
-    /*border: 1px solid black;*/
     min-width: 0px;
     max-width: 270px;
     padding: 10px 0 10px 15px;
@@ -238,7 +201,6 @@ header a {
   }
   
   .left-box p {
-    /*border: 1px solid black;*/
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -258,10 +220,7 @@ header a {
     font-weight: bold;
   }
   
-  
-  
   /* Main - Menu : White box (Animation) */
-  
   .meal > div:first-child {
     transition: width 0.3s linear 0s;
   }
@@ -270,10 +229,7 @@ header a {
     width: 85%;
   }
   
-  
-  
   /* Main - Menu : Green box */
-  
   .meal > div:last-child {
     height: inherit;
     width: 0%;
@@ -288,10 +244,7 @@ header a {
     color: #FFF;
   }
   
-  
-  
   /* Main - Menu : Green box (Animation) */
-  
   .meal > div:last-child {
     transition: width 0.3s linear 0s;
   }
@@ -323,32 +276,9 @@ header a {
     }
   
   }
-  
-  
-  
-  
-  
-  
+
   /* Main - Menu : Button */
-  
-  /* "style.css" => "Button" */
-  
   #menu .button {
     padding: 0 40px;
   }
-  
-  
-  
-  /* Main - Menu : Button (Animation) */
-  
-  /* "style.css" => "Button (Animation)" */
-  
-  
-  
-  
-  
-  
-  /* Footer */
-  
-  /* "style.css" => "Footer" */
   

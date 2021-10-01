@@ -1,5 +1,4 @@
 /* Reset */
-
 * {
     scroll-behavior: smooth;
     margin: 0;
@@ -9,13 +8,7 @@
     color: #000;
   }
   
-  
-  
-  
-  
-  
   /* None & Flexbox */
-  
   .none {
     display: none;
   }
@@ -24,46 +17,26 @@
     display: flex;
   }
   
-  
-  
-  
-  
-  
   /* Title font */
-  
   .title-font {
     font-family: 'Shrikhand', cursive;
   }
   
-  
-  
-  
-  
-  
   /* Image box */
-  
   .img1 {
     background-image: url("../images/img1.jpg");
   }
-  
   .img2 {
     background-image: url("../images/img2.jpg");
   }
-  
   .img3 {
     background-image: url("../images/img3.jpg");
   }
-  
   .img4 {
     background-image: url("../images/img4.jpg");
   }
   
-  
-
-  
-  
   /* Loading */
-  
   #loading {
     background-color: #000;
     height: 100vh;
@@ -78,10 +51,10 @@
     animation: loading-disparition 1s linear 0s 1;
     -webkit-animation: loading-disparition 1s linear 0s 1;
   }
-
-  #loading div i {
-    animation: loading-rotation 1s linear 0s 1;
-    -webkit-animation: loading-rotation 1s linear 0s 1;
+  #loading div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
    #loading div i{
       height: 100%;
@@ -90,13 +63,10 @@
       text-shadow: 0 0 20px #0f0;
       font-size: 64px;
       padding: 50px;
+      animation: loading-rotation 1s linear 0s 1;
+      -webkit-animation: loading-rotation 1s linear 0s 1;
   }
-  #loading div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
+  
   @keyframes loading-disparition {
 
     0% {
@@ -129,13 +99,7 @@
     }
   }
 
-
-
-
-
-
 /* Header */
-
 header {
   height: 60px;
   position: relative;
@@ -144,28 +108,20 @@ header {
   box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
   background-color: white;
 }
-
 header img {
   height: 30px;
 }
 
-
-
-
-
 /* Footer */
-
 footer {
   padding: 30px 0;
   background-color: #353535;
 }
-
 footer p {
   margin-left: 7%;
   margin-bottom: 20px;
   font-size: 16px;
 }
-
 footer p,
 footer a,
 footer .fas,
@@ -174,10 +130,7 @@ footer span {
   color: #FFF;
 }
 
-
-
 /* Footer - Address */
-
 footer address {
   height: 100px;
   margin-left: 7%;
@@ -185,7 +138,6 @@ footer address {
   justify-content: space-between;
   align-items: flex-start;
 }
-
 footer a {
   position: relative;
   justify-content: space-between;
@@ -193,30 +145,22 @@ footer a {
   overflow: hidden;
   font-size: 14px;
 }
-
 footer span {
   margin-left: 22px;
   font-weight: bold;
 }
-
 footer .fas {
   position: absolute;
   left: 0;
 }
-
 footer .fa-utensils {
   font-size: 12px;
 }
-
 footer .fa-hands-helping {
   font-size: 9px;
 }
 
-
-
-
 /* Heart */
-
 .heart-box {
   height: 22px;
   width: 22px;
@@ -225,46 +169,30 @@ footer .fa-hands-helping {
   align-items: center;
   font-size: 22px;
 }
-
 .heart-box .far {
-  position: absolute;
+  position: absolute; 
   font-size: inherit;
+  transition: color 0.3s linear 0s;
 }
-
 .heart-box .fas {
-  position: absolute;
+  position: absolute; 
   font-size: 0px;
   background: linear-gradient(40deg, #FF79DA, #9356DC);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  transition: font-size 0.3s linear 0s;
 }
-
-
-
 /* Heart (Animation) */
-
-.heart-box .far {
-  transition: color 0.3s linear 0s;
-}
-
 .heart-box:hover .far {
   color: transparent;
 }
 
-.heart-box .fas {
-  transition: font-size 0.3s linear 0s;
-}
-
 .heart-box:hover .fas {
-  font-size: inherit;
+  font-size: inherit; 
 }
-
-
-
 
 /* Button */
-
 .button {
   height: 45px;
   padding: 0 20px;
@@ -294,10 +222,7 @@ footer .fa-hands-helping {
   color: #FFF;
 }
 
-
-
 /* Button (Animation) */
-
 .button {
   transition: box-shadow 0.1s linear 0s;
 }
