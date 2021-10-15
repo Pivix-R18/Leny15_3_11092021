@@ -169,6 +169,7 @@ footer .fa-hands-helping {
   align-items: center;
   font-size: 22px;
 }
+/* animation du coeur */
 .heart-box .far {
   position: absolute; 
   font-size: inherit;
@@ -191,7 +192,7 @@ footer .fa-hands-helping {
 .heart-box:hover .fas {
   font-size: inherit; 
 }
-
+/* fin de l'animation du coeur */
 /* Button */
 .button {
   height: 45px;
