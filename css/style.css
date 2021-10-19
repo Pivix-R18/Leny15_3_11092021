@@ -59,8 +59,8 @@
    #loading div i{
       height: 100%;
       width: 100%;
-      color: #0f0;
-      text-shadow: 0 0 20px #0f0;
+      color: #FF79DA;
+      text-shadow: 0 0 20px #9356DC;
       font-size: 64px;
       padding: 50px;
       animation: loading-rotation 1s linear 0s 1;

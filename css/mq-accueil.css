@@ -73,7 +73,7 @@
   
   }
   
-  /* [640px ; +px[ */
+  /* [640px ; +px[ (Mode tablette) */
   @media screen and (min-width: 640px) {
   
     /* Main - Restaurant */
@@ -83,7 +83,7 @@
   
   }
 
-  /* [950px ; 1249px] */
+  /* [950px ; 1249px] (Mode tablette icon plus gros) */
   @media screen and (min-width: 950px) and (max-width: 1249px) {
   
     /* Main - Restaurant : Link #1-4 */
@@ -119,7 +119,7 @@
   
   }
   
-  /* [1050px ; +px[ */
+  /* [1050px ; +px[ (Mode grande tablette) */
   @media screen and (min-width: 1050px) {
 
     /* Main - Explore */
@@ -162,7 +162,7 @@
   
   }
   
-  /* [1250px ; +px[ */
+  /* [1250px ; +px[ (Mode desktop */
   @media screen and (min-width: 1250px) {
   
     /* [1250px ; +px[ : Main - Restaurant : Link #1-4 */

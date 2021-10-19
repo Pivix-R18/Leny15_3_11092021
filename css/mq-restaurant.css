@@ -1,4 +1,4 @@
-/* [850px ; +px[ */
+/* [850px ; +px[ (deux colonne) */
 @media screen and (min-width: 850px) {
     /* Main - Menu : Title (h1) + Heart */
     #menu > div:nth-child(1) {
@@ -21,7 +21,7 @@
     }
   }
 
-  /* [1050px ; +px[ */
+  /* [1050px ; +px[ (trois colonne) */
   @media screen and (min-width: 1050px) {
     /* Main - Menu : Entrées + Plats + Desserts */
     #menu-all {
